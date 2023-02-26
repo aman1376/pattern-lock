@@ -102,8 +102,8 @@ class App extends Component {
               <input type="password" id="password" name="password" className="patternlock" />
             </div>
             {this.state.errorMsg? <p> {this.state.errorMsg} </p> : null}
-            <div>
-              <input type="submit" name="btnSubmit" value="SET MY CODE" className="sbmt-btn"/>
+            <div className='button'>
+              <input type="submit" name="btnSubmit" value="CONFIRM PATTERN" className="sbmt-btn"/>
             </div>
           </form>
         </div>
